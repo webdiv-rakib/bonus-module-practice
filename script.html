@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element</title>
+    <style>
+        h3::after {
+            content: '.pdf';
+            color: red;
+        }
+
+        p::first-letter {
+            font-size: 1.5em;
+        }
+
+        ::selection {
+            background-color: tomato;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h3>Heading- 1</h3>
+        <h3>Heading- 2</h3>
+        <h3>Heading- 3</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro necessitatibus unde nobis, ipsam sit aut
+            earum
+            nostrum deleniti laborum saepe.</p>
+        <p>Omnis, aliquid harum. Ipsum assumenda impedit, aut autem similique eum aliquam, vel non minima, alias in ab
+            soluta corrupti atque.</p>
+        <p>Nam optio rem quidem! Consequuntur, harum alias perspiciatis pariatur asperiores error fuga veritatis nam
+            dolore
+            itaque vitae quas veniam quae!</p>
+        <button onclick="welcome()">Get discount</button>
+    </section>
+    <script>
+        // alert("Welcome to my website");
+        function welcome() {
+            alert("Code : SUMMER15");
+        }
+    </script>
+
+</body>
+
+</html>
